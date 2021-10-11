@@ -1,6 +1,9 @@
 nbr = int(input("Enter un nombre entier"))
+paire = False
 
-if nbr%2 == 0:
-    print("Le nombre est paire")
+if nbr % 2 == 0:
+    paire = True
 else:
-    print("Le nombre n'est pas paire'")
+    paire = False
+
+print(paire)
