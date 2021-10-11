@@ -7,7 +7,7 @@ for i in range(2, nbr):
         premier = False
 
 if premier:
-    print("Le chiffre est premier")
+    print("Le nombre est premier")
 else:
-    print("Le chiffre n'est pas premier")
+    print("Le nombre n'est pas premier")
 
