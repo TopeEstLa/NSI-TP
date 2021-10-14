@@ -28,4 +28,3 @@ elif cote_other_one ** 2 + cote_other_two ** 2 == cote_big ** 2:
     print("Le triangle est réctangle")
 else:
     print("Le triangle est quelconque")
-
