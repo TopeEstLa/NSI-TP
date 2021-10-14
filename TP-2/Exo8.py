@@ -15,6 +15,9 @@ elif cote_three > cote_one and cote_three > cote_two:
     cote_other_one = cote_one
     cote_other_two = cote_two
 else:
+    cote_big = 2
+    cote_other_one = 1
+    cote_other_two = 1
     print("Il ne seras pas rectangle !")
 
 if cote_one == cote_two == cote_three:
