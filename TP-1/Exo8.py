@@ -1,11 +1,8 @@
-n = int(input("Entier supérieur à 2 "))
+n = int(input("Entier supérieur à 2 -> "))
 
-a = 0
-b = 1
+a, b = 0, 1
 
 for _ in range(n-1):
-    nbr = a + b
-    a = b
-    b = nbr
+    a, b = b, a + b
 
-print(nbr)
+print(b)
